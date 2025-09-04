@@ -11,8 +11,11 @@
 <hr>
 <h2 style="color: #0dbe21;">Sing Up</h2>
 <hr>
+<form action="https://formspree.io/f/mkgvpzek" method="post">
+
+
 <b>Select your country:</b>
-<select>
+<select name="country">
   <option>India</option>
   <option>Bangladesh</option>
   <option>Pakistan</option>
@@ -20,27 +23,29 @@
   <option>Australia</option>  
 </select>
 <hr>
-<input type="text" placeholder="Email or phone number" />
+<b>Enter your name:</b><br>
+ 
+  <input type="text" name="name" id="name" placeholder="First name" />
+<br><br>
+
+<input type="text" name="name" id="name" placeholder="Last name" />
+<hr>
+<input type="email or number" name="email or number"  placeholder="Email or phone number" />
 <hr>
 <b>Gender:</b>
-<input type="radio" name="avi">Male
-<input type="radio" name="avi">Female
-<input type="radio" name="avi">Others
+<input type="radio" name="gender" value="Male">Male
+<input type="radio" name="gender" value="Female">Female
+<input type="radio" name="gender" value="other">other
 <hr>
 <b>Date of birth:</b>
-<input type="date">
-<hr>
-<b>Enter your password:</b>
-<input type="password" placeholder="Password" />
-<hr>
-<b>Confirm your password</b>
-<input type="password" placeholder="Confirm Password" />
+<input type="date" name="date" id="date">
+
 <hr>
 <button style="background-color:rgb(0, 255, 34);">Submit</button>
 
 <button style="background-color:rgb(255, 0, 0);">Reset</button>
 <hr>
-<h1>asif</h1>
+</form>
 
 
 
